@@ -1,0 +1,4 @@
+interface:
+  display_name: "合同审查与修订 Contract 4"
+  short_description: "最小必要修订、客户口径批注、附件勾稽与责任闭环审查"
+  default_prompt: "Use $contract4 to review and minimally redline this Chinese commercial contract with client-facing comments."

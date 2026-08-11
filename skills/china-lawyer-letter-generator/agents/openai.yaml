@@ -1,0 +1,23 @@
+interface:
+  display_name: "中国律师函生成器"
+  short_description: "固定11部分并以大成成都信头生成可供律师核对签发的中国律师函"
+  default_prompt: "Use $china-lawyer-letter-generator to draft and render a Chinese lawyer letter with the fixed 11-part structure and issuance formalities."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "yuandian-law"
+      description: "核验中国现行法律法规和具体法条"
+      transport: "streamable_http"
+      url: "https://open.chineselaw.com/mcp/law/stream"
+    - type: "mcp"
+      value: "yuandian-case"
+      description: "按需检索裁判规则和案例边界"
+      transport: "streamable_http"
+      url: "https://open.chineselaw.com/mcp/case/stream"
+    - type: "mcp"
+      value: "yuandian-company"
+      description: "按需核验企业名称、登记和主体状态"
+      transport: "streamable_http"
+      url: "https://open.chineselaw.com/mcp/company/stream"
+policy:
+  allow_implicit_invocation: true

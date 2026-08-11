@@ -1,0 +1,4 @@
+interface:
+  display_name: "常年客户 Wiki"
+  short_description: "从律师定稿与对话取舍中选择性编译客户长期法律认知成果"
+  default_prompt: "Use $legal-client-wiki to compile this client matter from the lawyer-final draft and decision dialogue."

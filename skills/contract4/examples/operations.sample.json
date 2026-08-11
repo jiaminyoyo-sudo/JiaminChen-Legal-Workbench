@@ -1,0 +1,14 @@
+[
+  {
+    "type": "replace",
+    "target": "15日",
+    "replacement": "20日",
+    "paragraph_hint": "乙方应于收到完整资料后15日内提交成果"
+  },
+  {
+    "type": "insert_after",
+    "anchor": "第三方合法权利",
+    "text": "；如发生第三方索赔，乙方应及时处理并承担其责任",
+    "paragraph_hint": "乙方保证其交付成果不侵犯第三方合法权利"
+  }
+]

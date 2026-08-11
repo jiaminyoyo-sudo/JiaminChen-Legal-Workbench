@@ -1,0 +1,71 @@
+{
+  "status": "draft",
+  "lawyer_confirmed": false,
+  "purpose": "要求对方限期支付到期服务费并书面反馈",
+  "client": "成都甲辰科技有限公司（模拟）",
+  "recipient": "四川乙方信息技术有限公司（模拟）",
+  "recipient_address": "四川省成都市高新区示例大道100号",
+  "matter": "技术服务合同付款争议（模拟）",
+  "requested_outcome": "收到函件后五日内支付100000元并书面反馈",
+  "nonperformance_consequence": "委托人将依法评估诉讼、保全及其他救济",
+  "strategy_analysis": {
+    "advantages": ["模拟合同、验收记录和付款通知能够相互印证"],
+    "disadvantages": ["尚需持续核对对方可能提出的质量异议"],
+    "risks": ["不得把尚未发生的诉讼或保全写成必然后果"],
+    "goal_fit": "律师函适合用于正式催告和固定立场，但不能替代送达留痕和证据保全"
+  },
+  "issuance": {
+    "engagement_completed": true,
+    "strategy_confirmed_by_client": true,
+    "letter_confirmed_by_client": true
+  },
+  "facts": [
+    {
+      "statement": "收件人尚有100000元服务费未支付",
+      "include_in_letter": true,
+      "evidence": ["模拟技术服务合同", "模拟验收确认单", "模拟付款通知邮件"],
+      "basic_evidence_needed": [],
+      "lawyer_decision": "confirmed_with_evidence"
+    }
+  ],
+  "legal_sources": [],
+  "document": {
+    "title": "律 师 函",
+    "reference_prefix": "川大成函字",
+    "reference_no": "（2026）川大成函字第〔模拟001〕号",
+    "subject": "关于催付技术服务费之事宜",
+    "recipient_line": "致：四川乙方信息技术有限公司（模拟）",
+    "opening": [
+      "北京大成（成都）律师事务所依法接受成都甲辰科技有限公司（模拟）的委托，指派本律师就贵司支付技术服务费事宜，向贵司出具本律师函。"
+    ],
+    "main_basis": {
+      "fact_basis": ["模拟技术服务合同", "模拟验收确认单", "模拟付款通知邮件"],
+      "legal_basis": ["双方合同中关于服务费支付及违约责任的约定"]
+    },
+    "basic_facts": [
+      "根据委托人提供的模拟材料，双方已经签署技术服务合同，相关服务成果已经完成验收。",
+      "合同约定的付款期限届满后，贵司尚有人民币100000元服务费未支付。"
+    ],
+    "legal_liability": [
+      "依据双方合同约定，贵司应当按期履行付款义务；逾期未付可能产生相应违约责任。"
+    ],
+    "lawyer_opinion": [
+      {
+        "text": "请贵司于收到本函之日起五日内支付人民币100000元，并将付款安排书面反馈本律师。",
+        "bold": true
+      },
+      "如贵司对付款事项存在异议，请在上述期限内提交具体理由和相应材料；逾期仍未妥善处理的，委托人将依法评估并采取后续救济措施。"
+    ],
+    "closing": [
+      "为避免争议进一步扩大，望贵司审慎对待本函并及时作出实质、有效回应。"
+    ],
+    "copy_statement": "本函一式两份，一份送达贵方，一份留存本所备查。",
+    "closing_phrase": "特此函告。",
+    "firm": "北京大成（成都）律师事务所",
+    "lawyers": ["张律师（模拟）", "李律师（模拟）"],
+    "issue_date": "2026-07-22",
+    "stamp_note": "（本函加盖本所公章及骑缝章后发出）",
+    "attachments": [],
+    "no_attachments": true
+  }
+}
