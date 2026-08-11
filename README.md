@@ -19,13 +19,13 @@
 |---|---|---|---|
 | [`contract4`](skills/contract4/) | 以最小必要幅度审查和修订中国商事合同，强化不修改闸门、客户口径批注、附件勾稽与责任闭环 | Word 原生修订稿、必要批注及待确认事项 | v0.1.0 |
 | [`china-lawyer-letter-generator`](skills/china-lawyer-letter-generator/) | 从法律关系、证据边界和签发目的出发，形成供律师复核的中国律师函 | 经结构与版式检查的 DOCX；签发阶段可配套 PDF | v0.1.0 |
-| [`legal-client-wiki`](skills/legal-client-wiki/) | 从律师确认定稿和真实取舍中，沉淀可溯源、可复用且不静默冲突的客户认知 | 本地客户 Wiki、索引、规则与更新记录 | v0.1.0 |
+| [`legal-client-wiki`](skills/legal-client-wiki/) | 新建、冷启动、升级或审计客户 Wiki，并从律师确认定稿和真实取舍中提炼长期认知 | 本地客户 Wiki、索引、规则与更新记录 | v0.1.1 |
 
 ## 如何选择
 
 - 需要审查或修订商事合同：从 `contract4` 开始；
 - 需要形成履约催告、付款催收、违约通知或其他律师函：查看 `china-lawyer-letter-generator`；
-- 需要把常年客户的业务模式、创新业务和法律边界持续沉淀：查看 `legal-client-wiki`；
+- 需要新建、冷启动、升级、批量补录或审计常年客户 Wiki：查看 `legal-client-wiki`；成熟 Wiki 的日常增量编译直接遵循项目自己的 `wiki/规则.md`；
 - 需要了解多个组件如何组成完整工作链：查看 [`solutions/`](solutions/)；
 - 需要先看模拟产出：查看 [`showcase/`](showcase/)。
 
