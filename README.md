@@ -24,10 +24,12 @@
 | [`bse-private-placement-investor-opinion`](skills/bse-private-placement-investor-opinion/) | 为拟参与北交所上市公司向特定对象发行股票的投资方起草并核验法律意见书 | 拟制/签发口径区分、法规核验台账和大成成都脱敏 Word 模板 | v0.1.3 |
 | [`case-research`](skills/case-research/) | 中国司法案例检索、事项内全文 JSON 归档、实务文章倒查和可复核案例表 | 案例 JSON、源素材留痕和案例表明细 | v0.1.4 |
 | [`china-legal-research-memo`](skills/china-legal-research-memo/) | 中国法律专题调研与正式书面备忘录，强调问题树、来源核验和团队行文 | 可追溯备忘录、主张来源台账和结构审计报告 | v0.1.5 |
+| [`china-contract-generator`](skills/china-contract-generator/) | 先确认法律关系与起草前提要，再生成中国民商事合同 Word 稿 | 起草前提要、清洁合同稿和脱密结构示例 | v0.1.6 |
 
 ## 如何选择
 
 - 需要审查或修订商事合同：从 `contract4` 开始；
+- 需要从业务方案起草或重构合同：查看 `china-contract-generator`；
 - 需要形成履约催告、付款催收、违约通知或其他律师函：查看 `china-lawyer-letter-generator`；
 - 需要新建、冷启动、规则升级、跨事项专项编译或结构审计常年客户 Wiki：查看 `legal-client-wiki`；成熟 Wiki 的日常增量编译直接遵循项目自己的 `wiki/规则.md`；
 - 需要为法规、案例、文章或专业资料建立文件型知识库：查看 `local-professional-knowledge-base`；
@@ -47,7 +49,7 @@ mkdir -p ~/.codex/skills
 cp -R JiaminChen-Legal-Workbench/skills/contract4 ~/.codex/skills/
 ```
 
-将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki`、`local-professional-knowledge-base`、`bse-private-placement-investor-opinion`、`case-research` 或 `china-legal-research-memo`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
+将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki`、`local-professional-knowledge-base`、`bse-private-placement-investor-opinion`、`case-research`、`china-legal-research-memo` 或 `china-contract-generator`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
 
 ## 关于陈佳敏
 

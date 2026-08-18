@@ -11,5 +11,6 @@
 - [`bse-private-placement-investor-opinion`：北交所定增投资方法律意见书脱敏模板](../skills/bse-private-placement-investor-opinion/assets/templates/)
 - [`case-research`：模拟案例 JSON 与案例表生成](../skills/case-research/examples/)
 - [`china-legal-research-memo`：模拟调研备忘录与结构审计](../skills/china-legal-research-memo/examples/)
+- [`china-contract-generator`：模拟技术服务合同及脱密结构示例](../skills/china-contract-generator/examples/)
 
 示例仅用于演示结构和能力，不构成法律意见，也不得作为真实事项直接签发或使用。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国合同生成"
+  short_description: "先确认法律关系与依据，再生成合同Word稿"
+  default_prompt: "Use $china-contract-generator to prepare a pre-drafting legal brief for confirmation, then draft the Chinese commercial contract."

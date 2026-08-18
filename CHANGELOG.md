@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.6 — 2026-08-18
+
+- 新增 `china-contract-generator`：先确认起草前提要，再生成中国民商事合同 Word 稿。
+
 ## v0.1.5 — 2026-08-18
 
 - 新增 `china-legal-research-memo`：中国法律专题调研备忘录方法、来源台账和结构审计脚本。
