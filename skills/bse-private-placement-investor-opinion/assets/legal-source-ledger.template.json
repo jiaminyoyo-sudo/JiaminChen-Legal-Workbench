@@ -1,0 +1,19 @@
+{
+  "opinion_date": "YYYY-MM-DD",
+  "rules": [
+    {
+      "title": "法规或业务规则正式名称",
+      "aliases": [],
+      "status": "现行有效",
+      "source_type": "pkulaw|yuandian|official",
+      "source_locator": "法宝或元典记录标识，或者发布机关官网URL",
+      "verified_on": "YYYY-MM-DD",
+      "articles": [
+        {
+          "article": "第五条第三款",
+          "text": "经权威来源核验的条文原文"
+        }
+      ]
+    }
+  ]
+}

@@ -21,6 +21,7 @@
 | [`china-lawyer-letter-generator`](skills/china-lawyer-letter-generator/) | 从法律关系、证据边界和签发目的出发，形成供律师复核的中国律师函 | 经结构与版式检查的 DOCX；签发阶段可配套 PDF | v0.1.0 |
 | [`legal-client-wiki`](skills/legal-client-wiki/) | 新建、冷启动、规则升级、跨事项专项编译或结构审计客户 Wiki | 本地客户 Wiki、索引、规则、审计报告与更新记录 | v0.1.2 |
 | [`local-professional-knowledge-base`](skills/local-professional-knowledge-base/) | 为法规、案例、文章和专业资料建立可检索、可溯源的本地文件型知识库 | 原始材料目录、Markdown 镜像、材料索引/地图和比较队列 | v0.1.2 |
+| [`bse-private-placement-investor-opinion`](skills/bse-private-placement-investor-opinion/) | 为拟参与北交所上市公司向特定对象发行股票的投资方起草并核验法律意见书 | 拟制/签发口径区分、法规核验台账和大成成都脱敏 Word 模板 | v0.1.3 |
 
 ## 如何选择
 
@@ -28,6 +29,7 @@
 - 需要形成履约催告、付款催收、违约通知或其他律师函：查看 `china-lawyer-letter-generator`；
 - 需要新建、冷启动、规则升级、跨事项专项编译或结构审计常年客户 Wiki：查看 `legal-client-wiki`；成熟 Wiki 的日常增量编译直接遵循项目自己的 `wiki/规则.md`；
 - 需要为法规、案例、文章或专业资料建立文件型知识库：查看 `local-professional-knowledge-base`；
+- 需要为投资方起草北交所定增认购法律意见书：查看 `bse-private-placement-investor-opinion`；
 - 需要了解多个组件如何组成完整工作链：查看 [`solutions/`](solutions/)；
 - 需要先看模拟产出：查看 [`showcase/`](showcase/)。
 
@@ -41,7 +43,7 @@ mkdir -p ~/.codex/skills
 cp -R JiaminChen-Legal-Workbench/skills/contract4 ~/.codex/skills/
 ```
 
-将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki` 或 `local-professional-knowledge-base`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
+将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki`、`local-professional-knowledge-base` 或 `bse-private-placement-investor-opinion`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
 
 ## 关于陈佳敏
 
@@ -66,7 +68,7 @@ cp -R JiaminChen-Legal-Workbench/skills/contract4 ~/.codex/skills/
 
 ## 公开与隐私
 
-公开内容不包含真实客户材料、事项档案、内部知识库或密钥。示例使用从零构造的模拟材料，或在保留专业结构的同时重构主体、人物、金额、日期和其他识别组合的公开脱敏材料。`china-lawyer-letter-generator` 所含大成成都信头模板已获上传许可，但其品牌与身份使用权不随项目许可证开放。具体规则见 [`docs/公开与隐私说明.md`](docs/公开与隐私说明.md)；信头和品牌使用边界见 [`NOTICE.md`](NOTICE.md)。
+公开内容不包含真实客户材料、事项档案、内部知识库或密钥。示例使用从零构造的模拟材料，或在保留专业结构的同时重构主体、人物、金额、日期和其他识别组合的公开脱敏材料。`china-lawyer-letter-generator` 和 `bse-private-placement-investor-opinion` 所含大成成都信头或模板已获上传许可，但其品牌与身份使用权不随项目许可证开放。具体规则见 [`docs/公开与隐私说明.md`](docs/公开与隐私说明.md)；信头和品牌使用边界见 [`NOTICE.md`](NOTICE.md)。
 
 ## 使用边界
 

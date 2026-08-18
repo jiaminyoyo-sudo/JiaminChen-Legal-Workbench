@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.3 — 2026-08-18
+
+- 新增 `bse-private-placement-investor-opinion`：北交所定增投资方法律意见书方法、法规核验台账、脱敏 Word 模板和审计脚本。
+
 ## v0.1.2 — 2026-08-18
 
 - 将 `legal-client-wiki` 重构为按工作模式分流的入口：冷启动、日常收尾、规则升级和结构审计；

@@ -1,0 +1,4 @@
+interface:
+  display_name: "北交所定增投资方法律意见书"
+  short_description: "核验并生成北交所向特定对象发行股票的投资方法律意见书"
+  default_prompt: "使用 $bse-private-placement-investor-opinion 起草并核验一份北交所向特定对象发行股票的投资方法律意见书。"
