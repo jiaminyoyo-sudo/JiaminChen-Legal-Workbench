@@ -11,7 +11,7 @@
 - 外部法条、案例及原始材料提供证据；
 - 律师确认事实、商业底线和最终结论。
 
-首批三个 Skill 已完成公开副本整理、许可证标注、模拟示例和本地安装验证。每个 Skill 均可独立下载、安装和使用。
+当前开放项目已完成公开副本整理、许可证标注、模拟示例和本地安装验证。每个 Skill 均可独立下载、安装和使用。
 
 ## 首批开放项目
 
@@ -20,12 +20,14 @@
 | [`contract4`](skills/contract4/) | 以最小必要幅度审查和修订中国商事合同，强化不修改闸门、客户口径批注、附件勾稽与责任闭环 | Word 原生修订稿、必要批注及待确认事项 | v0.1.0 |
 | [`china-lawyer-letter-generator`](skills/china-lawyer-letter-generator/) | 从法律关系、证据边界和签发目的出发，形成供律师复核的中国律师函 | 经结构与版式检查的 DOCX；签发阶段可配套 PDF | v0.1.0 |
 | [`legal-client-wiki`](skills/legal-client-wiki/) | 新建、冷启动、规则升级、跨事项专项编译或结构审计客户 Wiki | 本地客户 Wiki、索引、规则、审计报告与更新记录 | v0.1.2 |
+| [`local-professional-knowledge-base`](skills/local-professional-knowledge-base/) | 为法规、案例、文章和专业资料建立可检索、可溯源的本地文件型知识库 | 原始材料目录、Markdown 镜像、材料索引/地图和比较队列 | v0.1.2 |
 
 ## 如何选择
 
 - 需要审查或修订商事合同：从 `contract4` 开始；
 - 需要形成履约催告、付款催收、违约通知或其他律师函：查看 `china-lawyer-letter-generator`；
 - 需要新建、冷启动、规则升级、跨事项专项编译或结构审计常年客户 Wiki：查看 `legal-client-wiki`；成熟 Wiki 的日常增量编译直接遵循项目自己的 `wiki/规则.md`；
+- 需要为法规、案例、文章或专业资料建立文件型知识库：查看 `local-professional-knowledge-base`；
 - 需要了解多个组件如何组成完整工作链：查看 [`solutions/`](solutions/)；
 - 需要先看模拟产出：查看 [`showcase/`](showcase/)。
 
@@ -39,7 +41,7 @@ mkdir -p ~/.codex/skills
 cp -R JiaminChen-Legal-Workbench/skills/contract4 ~/.codex/skills/
 ```
 
-将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator` 或 `legal-client-wiki`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
+将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki` 或 `local-professional-knowledge-base`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
 
 ## 关于陈佳敏
 

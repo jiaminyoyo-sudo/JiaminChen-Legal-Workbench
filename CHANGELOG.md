@@ -5,7 +5,8 @@
 - 将 `legal-client-wiki` 重构为按工作模式分流的入口：冷启动、日常收尾、规则升级和结构审计；
 - 新增 `references/` 与只读审计脚本 `scripts/audit_wiki.py`；
 - 继续把成熟项目的单事项日常增量编译交给项目自己的 `wiki/规则.md`；
-- 公开安装名继续保持 `legal-client-wiki`，中央维护源仍为 `legal-client-wiki2`。
+- 公开安装名继续保持 `legal-client-wiki`，中央维护源仍为 `legal-client-wiki2`；
+- 新增 `local-professional-knowledge-base`：本地文件型专业知识库冷启动、增量更新、材料索引/地图和跨材料比较队列。
 
 ## v0.1.1 — 2026-08-11
 

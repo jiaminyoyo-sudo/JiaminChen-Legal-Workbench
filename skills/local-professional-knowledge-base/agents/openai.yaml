@@ -1,0 +1,4 @@
+interface:
+  display_name: "本地专业知识库"
+  short_description: "搭建可检索、可溯源、可增量更新的本地专业材料知识库"
+  default_prompt: "使用 $local-professional-knowledge-base 为当前项目冷启动本地专业知识库，并生成材料镜像、索引、地图和项目 AGENTS.md。"
