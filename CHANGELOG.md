@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.4 — 2026-08-18
+
+- 新增 `case-research`：案例检索、事项内全文 JSON 归档、实务文章倒查和可复核案例表。
+
 ## v0.1.3 — 2026-08-18
 
 - 新增 `bse-private-placement-investor-opinion`：北交所定增投资方法律意见书方法、法规核验台账、脱敏 Word 模板和审计脚本。

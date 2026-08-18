@@ -9,5 +9,6 @@
 - [`legal-client-wiki`：模拟客户 Wiki 编译示例](../skills/legal-client-wiki/examples/)
 - [`local-professional-knowledge-base`：模拟管理办法及知识库初始化示例](../skills/local-professional-knowledge-base/examples/)
 - [`bse-private-placement-investor-opinion`：北交所定增投资方法律意见书脱敏模板](../skills/bse-private-placement-investor-opinion/assets/templates/)
+- [`case-research`：模拟案例 JSON 与案例表生成](../skills/case-research/examples/)
 
 示例仅用于演示结构和能力，不构成法律意见，也不得作为真实事项直接签发或使用。

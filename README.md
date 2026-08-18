@@ -22,6 +22,7 @@
 | [`legal-client-wiki`](skills/legal-client-wiki/) | 新建、冷启动、规则升级、跨事项专项编译或结构审计客户 Wiki | 本地客户 Wiki、索引、规则、审计报告与更新记录 | v0.1.2 |
 | [`local-professional-knowledge-base`](skills/local-professional-knowledge-base/) | 为法规、案例、文章和专业资料建立可检索、可溯源的本地文件型知识库 | 原始材料目录、Markdown 镜像、材料索引/地图和比较队列 | v0.1.2 |
 | [`bse-private-placement-investor-opinion`](skills/bse-private-placement-investor-opinion/) | 为拟参与北交所上市公司向特定对象发行股票的投资方起草并核验法律意见书 | 拟制/签发口径区分、法规核验台账和大成成都脱敏 Word 模板 | v0.1.3 |
+| [`case-research`](skills/case-research/) | 中国司法案例检索、事项内全文 JSON 归档、实务文章倒查和可复核案例表 | 案例 JSON、源素材留痕和案例表明细 | v0.1.4 |
 
 ## 如何选择
 
@@ -30,6 +31,7 @@
 - 需要新建、冷启动、规则升级、跨事项专项编译或结构审计常年客户 Wiki：查看 `legal-client-wiki`；成熟 Wiki 的日常增量编译直接遵循项目自己的 `wiki/规则.md`；
 - 需要为法规、案例、文章或专业资料建立文件型知识库：查看 `local-professional-knowledge-base`；
 - 需要为投资方起草北交所定增认购法律意见书：查看 `bse-private-placement-investor-opinion`；
+- 需要类案检索、案例全文归档或实务文章倒查：查看 `case-research`；
 - 需要了解多个组件如何组成完整工作链：查看 [`solutions/`](solutions/)；
 - 需要先看模拟产出：查看 [`showcase/`](showcase/)。
 
@@ -43,7 +45,7 @@ mkdir -p ~/.codex/skills
 cp -R JiaminChen-Legal-Workbench/skills/contract4 ~/.codex/skills/
 ```
 
-将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki`、`local-professional-knowledge-base` 或 `bse-private-placement-investor-opinion`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
+将最后一行的 `contract4` 替换为 `china-lawyer-letter-generator`、`legal-client-wiki`、`local-professional-knowledge-base`、`bse-private-placement-investor-opinion` 或 `case-research`，即可独立安装另一个 Skill。Claude Code 用户可复制到 `~/.claude/skills/`。具体依赖、示例和边界见各项目 README。
 
 ## 关于陈佳敏
 
