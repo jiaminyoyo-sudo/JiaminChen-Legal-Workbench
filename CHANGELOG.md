@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.2 — 2026-08-18
+
+- 将 `legal-client-wiki` 重构为按工作模式分流的入口：冷启动、日常收尾、规则升级和结构审计；
+- 新增 `references/` 与只读审计脚本 `scripts/audit_wiki.py`；
+- 继续把成熟项目的单事项日常增量编译交给项目自己的 `wiki/规则.md`；
+- 公开安装名继续保持 `legal-client-wiki`，中央维护源仍为 `legal-client-wiki2`。
+
 ## v0.1.1 — 2026-08-11
 
 - 更新 `legal-client-wiki` 的触发范围：用于新建、历史冷启动、规则升级、跨事项批量补录、知识体系重构和结构审计；
