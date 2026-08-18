@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国法律调研备忘录"
+  short_description: "按团队方法完成可核验的中国法律专题调研与正式备忘录"
+  default_prompt: "Use $china-legal-research-memo to research this Chinese-law issue and prepare a source-traceable memorandum in the team style."

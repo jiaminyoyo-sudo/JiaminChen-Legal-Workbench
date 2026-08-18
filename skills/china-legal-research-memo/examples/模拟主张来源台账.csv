@@ -1,0 +1,2 @@
+﻿claim_id,issue_id,claim,claim_type,source_level,source_title,pinpoint,url_or_local_path,current_status,checked_on,supports_or_limits,note
+C001,I01,示例行，使用前删除：某项已确认事实或法律主张,fact,project_material,示例材料名称,第1页或第1条,项目内相对路径,confirmed,2026-08-10,support,记录事实状态、冲突或引用用途
