@@ -23,7 +23,7 @@
 | [`local-professional-knowledge-base`](skills/local-professional-knowledge-base/) | 为法规、案例、文章和专业资料建立可检索、可溯源的本地文件型知识库 | 原始材料目录、Markdown 镜像、材料索引/地图和比较队列 | v0.1.2 |
 | [`bse-private-placement-investor-opinion`](skills/bse-private-placement-investor-opinion/) | 为拟参与北交所上市公司向特定对象发行股票的投资方起草并核验法律意见书 | 拟制/签发口径区分、法规核验台账和大成成都脱敏 Word 模板 | v0.1.3 |
 | [`case-research`](skills/case-research/) | 中国司法案例检索、事项内全文 JSON 归档、实务文章倒查和可复核案例表 | 案例 JSON、源素材留痕和案例表明细 | v0.1.4 |
-| [`china-legal-research-memo`](skills/china-legal-research-memo/) | 中国法律专题调研与正式书面备忘录，强调问题树、来源核验和团队行文 | 可追溯备忘录、主张来源台账和结构审计报告 | v0.1.5 |
+| [`china-legal-research-memo`](skills/china-legal-research-memo/) | 中国法律专题调研与正式书面备忘录，强调问题树、来源核验和团队行文 | 可追溯备忘录、主张来源台账和结构审计报告 | v0.1.6 |
 | [`china-contract-generator`](skills/china-contract-generator/) | 先确认法律关系与起草前提要，再生成中国民商事合同 Word 稿 | 起草前提要、清洁合同稿和脱密结构示例 | v0.1.6 |
 
 ## 如何选择
